@@ -3,7 +3,7 @@
     "version":"1.0.0",
     "location":"elpete/cbox-properties-loader#1.0.0",
     "scripts":{
-        "postVersion":"!git tag `package version`",
+        "postVersion":"package set location='gitUser/gitRepo#`package version`'",
         "postPublish":"!git push"
     },
     "author":"Eric Peterson",
