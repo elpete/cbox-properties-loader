@@ -1,6 +1,6 @@
 {
     "name":"ColdBox Properties Loader",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "location":"elpete/cbox-properties-loader#1.0.1",
     "scripts":{
         "postVersion":"package set location='elpete/cbox-properties-loader#v`package version`'",
