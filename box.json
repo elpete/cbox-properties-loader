@@ -1,0 +1,28 @@
+{
+    "name":"ColdBox Properties Loader",
+    "version":"1.0.0",
+    "location":"elpete/cbox-properties-loader#1.0.0",
+    "scripts" : {
+      "postVersion" : "package set location='gitUser/gitRepo#`package version`'",
+      "postVersion" : "!git tag `package version`",
+      "postPublish" : "!git push"
+    },
+    "author":"Eric Peterson",
+    "homepage":"https://github.com/elpete/cbox-properties-loader",
+    "documentation":"https://github.com/elpete/cbox-properties-loader/blob/master/README.md",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/elpete/cbox-properties-loader"
+    },
+    "slug":"cbox-properties-loader",
+    "shortDescription":"Reads values from your Java System properties and adds the values to your ColdBox settings.",
+    "type":"modules",
+    "keywords":[
+        "dotenv",
+        "properties",
+        "settings",
+        "secrets"
+    ],
+    "private":false,
+    "dependencies":{}
+}
