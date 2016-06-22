@@ -1,9 +1,9 @@
 {
     "name":"ColdBox Properties Loader",
-    "version":"1.0.0",
-    "location":"elpete/cbox-properties-loader#1.0.0",
+    "version":"1.0.1",
+    "location":"gitUser/gitRepo#1.0.0",
     "scripts":{
-        "postVersion":"package set location='gitUser/gitRepo#`package version`'",
+        "postVersion":"package set location='elpete/cbox-properties-loader#`package version`'",
         "postPublish":"!git push"
     },
     "author":"Eric Peterson",
