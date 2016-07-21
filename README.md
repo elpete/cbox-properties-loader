@@ -23,6 +23,6 @@ component {
 
 ## Other packages you might want
 
-`[box install commandbox-dotenv](https://www.forgebox.io/view/commandbox-dotenv)`
+[`box install commandbox-dotenv`](https://www.forgebox.io/view/commandbox-dotenv)
 
 Adds the contents of a `.env` file to your Java System properties when using CommandBox servers.
