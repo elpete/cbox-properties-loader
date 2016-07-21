@@ -9,7 +9,17 @@ This module reads the Java System properties (`java.lang.system.getProperties()`
 ## Usage
 All your properties will be loaded by default.
 
-You can access these in your ColdBox app by using `getSetting("PROPERTY_NAME")`or by injecting it with `property name="secret" inject="coldbox:setting:PROPERTY_NAME";`.
+You can access these in your ColdBox app by using this:
+```
+getSetting("PROPERTY_NAME")
+```
+
+You can also use it by injecting it with 
+```
+component {
+	property name="secret" inject="coldbox:setting:PROPERTY_NAME";
+}
+```
 
 ## Other packages you might want
 
